@@ -1,22 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kio package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:37+0000\n"
-"PO-Revision-Date: 2023-09-25 13:28+0530\n"
-"Last-Translator: Shreekant Kalwar\n"
+"POT-Creation-Date: 2024-12-15 00:38+0000\n"
+"PO-Revision-Date: 2024-12-15 21:17+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #, kde-format
@@ -2466,6 +2465,9 @@ msgid ""
 "elevated permissions, can not be guaranteed because users other than root "
 "have permission to modify it at %2."
 msgstr ""
+"प्रोटोकॉल ’%1’ कृते KIO कार्यकर्तुः सुरक्षा, यत् सामान्यतया उन्नतानुमतिम् याचते, तस्य "
+"गारण्टीं दातुं न शक्यते यतोहि root इत्येतस्मात् परेभ्यः उपयोक्तृभ्यः %2 इत्यत्र परिवर्तनस्य "
+"अनुमतिः अस्ति."
 
 #: core/worker.cpp:379
 #, kde-format
@@ -2574,8 +2576,7 @@ msgid "Reload"
 msgstr "पुनः सम्प्रेषयति"
 
 #: filewidgets/kdiroperator.cpp:1977
-#, fuzzy, kde-format
-#| msgid "New Folder…"
+#, kde-format
 msgctxt "@action"
 msgid "New Folder…"
 msgstr "नूतनं पुटम्…"
@@ -2802,12 +2803,10 @@ msgid "Root Folder"
 msgstr "मूलपुटम्"
 
 #: filewidgets/kfilecopytomenu.cpp:146
-#, fuzzy, kde-format
-#| msgctxt "@title:menu in Copy To or Move To submenu"
-#| msgid "Browse..."
+#, kde-format
 msgctxt "@action:inmenu in Copy To or Move To submenu"
 msgid "Browse…"
-msgstr "अन्वेषय..."
+msgstr "अन्वेषय…"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
@@ -2833,12 +2832,12 @@ msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: filewidgets/kfilefiltercombo.cpp:160
+#: filewidgets/kfilefiltercombo.cpp:162
 #, kde-format
 msgid "All Supported Files"
 msgstr "सर्वाणि समर्थितानि सञ्चिकानि"
 
-#: filewidgets/kfilefiltercombo.cpp:170 filewidgets/kfilefiltercombo.cpp:172
+#: filewidgets/kfilefiltercombo.cpp:172 filewidgets/kfilefiltercombo.cpp:174
 #: filewidgets/kfilewidget.cpp:1902
 #, kde-format
 msgid "All Files"
@@ -2967,11 +2966,10 @@ msgid "Tags"
 msgstr "चिह्नानि"
 
 #: filewidgets/kfileplacesitem.cpp:333
-#, fuzzy, kde-format
-#| msgid "%1 (Error %2)"
+#, kde-format
 msgctxt "@info:tooltip path (mounted from)"
 msgid "%1 (from %2)"
-msgstr "%1 (त्रुटि %2)"
+msgstr "%1 (%2 तः)"
 
 #: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
@@ -3146,9 +3144,7 @@ msgid "Reformat or Edit with Partition Manager"
 msgstr "विभाजनप्रबन्धकेन पुनः स्वरूपणं वा सम्पादनं वा कुर्वन्तु"
 
 #: filewidgets/kfileplacesview.cpp:337
-#, fuzzy, kde-format
-#| msgctxt "items: folders, files (size)"
-#| msgid "%1: %2"
+#, kde-format
 msgctxt "@info:tooltip full display text since it is elided: original tooltip"
 msgid "%1: %2"
 msgstr "%1: %2"
@@ -3486,10 +3482,9 @@ msgid "Remote Files Not Accepted"
 msgstr "दूरस्थसञ्चिकाः न स्वीकृताः"
 
 #: filewidgets/kfilewidget.cpp:1900
-#, fuzzy, kde-format
-#| msgid "*|All Folders"
+#, kde-format
 msgid "All Folders"
-msgstr "*|सर्वाणि पुटानि"
+msgstr "सर्वाणि पुटानि"
 
 #: filewidgets/kfilewidget.cpp:2052 widgets/executablefileopendialog.cpp:44
 #: widgets/kfileitemactions.cpp:742
@@ -3581,11 +3576,10 @@ msgstr ""
 "तथा ? अनुमताः सन्ति।</p></qt>"
 
 #: filewidgets/knewfilemenu.cpp:440
-#, fuzzy, kde-format
-#| msgid "Create New"
+#, kde-format
 msgctxt "@title:window"
 msgid "Create New File"
-msgstr "नूतनं सृजतु"
+msgstr "नूतनं सञ्चिकां रचयन्तु"
 
 #: filewidgets/knewfilemenu.cpp:480
 #, kde-format
@@ -3617,7 +3611,7 @@ msgstr "%1"
 #, kde-format
 msgctxt "@label:textbox Prompt for new file of type"
 msgid "Enter %1 filename:"
-msgstr ""
+msgstr "%1 सञ्चिकानाम प्रविष्टं कुर्वन्तु:"
 
 #: filewidgets/knewfilemenu.cpp:1166
 #, kde-kuit-format
@@ -3708,11 +3702,10 @@ msgid "New Folder"
 msgstr "नूतनं पुटम्"
 
 #: filewidgets/knewfilemenu.cpp:1497
-#, fuzzy, kde-format
-#| msgid "Create Folder"
+#, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder"
-msgstr "पुटं निर्मातुम्"
+msgstr "नूतनं पुटं निर्मातुम्"
 
 #: filewidgets/knewfilemenu.cpp:1499
 #, kde-format
@@ -3764,12 +3757,10 @@ msgid "Show Full Path"
 msgstr "पूर्णमार्गं दर्शयतु"
 
 #: filewidgets/kurlnavigator.cpp:796
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Cannot transfer <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:tooltip for button. 1 is path"
 msgid "Go to any location on the path <filename>%1</filename>"
-msgstr "<filename>%1</filename> स्थानान्तरणं कर्तुं न शक्यते"
+msgstr "<filename>%1</filename> इति मार्गे यत्किमपि स्थानं गच्छन्तु"
 
 #: filewidgets/kurlnavigatorbutton.cpp:701
 #, kde-format
@@ -3781,7 +3772,7 @@ msgstr "अधिकः"
 #, kde-format
 msgctxt "@action:button opening a list of locations"
 msgid "Go to Location on Path"
-msgstr ""
+msgstr "Location on Path इत्यत्र गच्छन्तु"
 
 #: filewidgets/kurlnavigatorschemecombo.cpp:155
 #, kde-format
@@ -3821,13 +3812,13 @@ msgstr "स्थानं सम्पादयितुं नुदन्त�
 msgid "You are not authorized to execute this file."
 msgstr "एतां सञ्चिकां निष्पादयितुं भवान् अधिकृतः नास्ति ।."
 
-#: gui/applicationlauncherjob.cpp:133 gui/commandlauncherjob.cpp:117
+#: gui/applicationlauncherjob.cpp:144 gui/commandlauncherjob.cpp:117
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "प्रक्षेपण %1"
 
-#: gui/applicationlauncherjob.cpp:170
+#: gui/applicationlauncherjob.cpp:181
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
@@ -3836,12 +3827,12 @@ msgstr ""
 "%1 सेवां कार्यान्वयनीयं कर्तुं असमर्थः, निष्पादनं निरस्तं करोति ।\n"
 "%2."
 
-#: gui/applicationlauncherjob.cpp:288 gui/openurljob.cpp:644
+#: gui/applicationlauncherjob.cpp:299 gui/openurljob.cpp:644
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "एतां सञ्चिकां उद्घाटयितुं भवान् अनुप्रयोगं चिन्वितुं अधिकृतः नास्ति ।."
 
-#: gui/applicationlauncherjob.cpp:296
+#: gui/applicationlauncherjob.cpp:307
 #, kde-format
 msgid ""
 "Internal error: could not prompt the user for which application to start"
@@ -3851,7 +3842,7 @@ msgstr "आन्तरिकदोषः: उपयोक्तारं कस
 #, kde-format
 msgctxt "An error message"
 msgid "Empty command provided"
-msgstr ""
+msgstr "रिक्तः आदेशः प्रदत्तः"
 
 #: gui/faviconrequestjob.cpp:108
 #, kde-format
@@ -3974,17 +3965,14 @@ msgid "The program \"%1\" could not be launched."
 msgstr "\"%1\" इति कार्यक्रमः प्रारब्धः न अभवत् ।."
 
 #: kioexec/kioexecd.cpp:86
-#, fuzzy, kde-kuit-format
-#| msgid ""
-#| "The file %1\n"
-#| "has been modified. Do you want to upload the changes?"
+#, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "The file <filename>%1</filename><nl/>has been modified. Do you want to "
 "upload the changes?"
 msgstr ""
-"सञ्चिका %1\n"
-"परिवर्तनं कृतम् अस्ति। परिवर्तनं उपारोपण कर्तुम् इच्छति वा ?"
+"सञ्चिका <filename>%1</filename><nl/>परिवर्तनं कृतम् अस्ति। परिवर्तनं उपारोपण कर्तुम् "
+"इच्छति वा ?"
 
 #: kioexec/kioexecd.cpp:87 kioexec/main.cpp:240 kioexec/main.cpp:250
 #, kde-format
@@ -4858,12 +4846,10 @@ msgid "&Move Here"
 msgstr "&अत्र संस्थापयन्तु"
 
 #: widgets/dropjob.cpp:330
-#, fuzzy, kde-format
-#| msgctxt "KFile System Bookmarks"
-#| msgid "Downloads"
+#, kde-format
 msgctxt "@action:inmenu Download contents of URL here"
 msgid "&Download Here"
-msgstr "अवारोपण"
+msgstr "&अत्र अवारोपण कुर्वन्तु"
 
 #: widgets/dropjob.cpp:330
 #, kde-format
@@ -5211,10 +5197,9 @@ msgid "Updating System Configuration"
 msgstr "सङ्गणकतन्त्राः विन्यासस्य अद्यतनीकरणम्"
 
 #: widgets/kbuildsycocaprogressdialog.cpp:30
-#, fuzzy, kde-format
-#| msgid "Updating system configuration."
+#, kde-format
 msgid "Updating system configuration…"
-msgstr "सङ्गणकतन्त्राः विन्यासस्य अद्यतनीकरणम्."
+msgstr "सङ्गणकतन्त्राः विन्यासस्य अद्यतनीकरणम्…"
 
 #: widgets/kdirmodel.cpp:1237
 #, kde-format
@@ -5276,17 +5261,13 @@ msgid "&Actions"
 msgstr "&क्रियाः"
 
 #: widgets/kfileitemactions.cpp:693
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "&Open Folder With…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open Folder With…"
 msgstr "&एतेन सह पुटं उद्घाटयन्तु…"
 
 #: widgets/kfileitemactions.cpp:693
-#, fuzzy, kde-format
-#| msgctxt "@title:menu"
-#| msgid "&Open With…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "&Open With…"
 msgstr "&एतेन उद्घाटयन्तु…"
@@ -5314,12 +5295,10 @@ msgid "&Open With"
 msgstr "&एतेन उद्घाटयन्तु"
 
 #: widgets/kfileitemactions.cpp:774
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu Open With"
-#| msgid "&Other Application..."
+#, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application…"
-msgstr "&अन्य अनुप्रयोग..."
+msgstr "&अन्य अनुप्रयोग…"
 
 #: widgets/kfileitemdelegate.cpp:214
 #, kde-format
@@ -6140,27 +6119,24 @@ msgid ""
 msgstr "सर्वेषां उपयोक्तृणां, ये न स्वामिनः न च समूहे, तानि क्रियाणि निर्दिशति ।."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1209
-#, fuzzy, kde-format
-#| msgid "Only own&er can rename and delete folder content"
+#, kde-format
 msgid "Only own&er can delete or rename contents"
-msgstr "केवलं स्वामिः एव पुटस्य सामग्रीं नाम परिवर्तयितुं विलोपयितुं च शक्नोति"
+msgstr "केवलं स्वामिः एव सामग्रीं नाम परिवर्तयितुं विलोपयितुं च शक्नोति"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1209
-#, fuzzy, kde-format
-#| msgid "Enable this flag to allow executing the file as a program."
+#, kde-format
 msgid "Allow &executing file as program"
-msgstr "सञ्चिकां संविधिरूपेण निष्पादयितुं अनुमतिं दातुं एतत् ध्वजं सक्षमं कुर्वन्तु ।."
+msgstr "सञ्चिकां संविधिरूपेण &निष्पादयितुं अनुमतिं ददातु"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1211
 #, kde-format
 msgid "Delete or rename:"
-msgstr ""
+msgstr "विलोपनं वा नामकरणं वा :"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1211
-#, fuzzy, kde-format
-#| msgid "&Execute"
+#, kde-format
 msgid "Execute:"
-msgstr "&निष्पादयतु"
+msgstr "निष्पादयतु:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1212
 #, kde-format
@@ -6428,12 +6404,10 @@ msgstr "C&hecksums"
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2130
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2141
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2152
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Calculating..."
+#, kde-format
 msgctxt "@info:progress"
 msgid "Calculating…"
-msgstr "गणनां कुर्वन्..."
+msgstr "गणनां कुर्वन्…"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2308
 #, kde-format
@@ -6475,12 +6449,10 @@ msgid "The computed checksum and the expected checksum differ."
 msgstr "गणितं चेकसमं (checksum) अपेक्षितं चेकसमं (checksum) च भिन्नं भवति ।."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2350
-#, fuzzy, kde-format
-#| msgctxt "notify the user about a computation in the background"
-#| msgid "Verifying checksum..."
+#, kde-format
 msgctxt "@info:progress computation in the background"
 msgid "Verifying checksum…"
-msgstr "Checksum सत्यापनम्..."
+msgstr "Checksum सत्यापनम्…"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:2438
 #, kde-format
@@ -6614,11 +6586,10 @@ msgid "%1"
 msgstr "%1"
 
 #: widgets/kurifiltersearchprovideractions.cpp:94
-#, fuzzy, kde-format
-#| msgid "Configure Web Shortcuts..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure Web Shortcuts…"
-msgstr "जालसंक्षिप्तमार्गः विन्यस्तं कुर्वन्तु..."
+msgstr "जालसंक्षिप्तमार्गः विन्यस्तं कुर्वन्तु…"
 
 #: widgets/kurlrequester.cpp:329
 #, kde-format
@@ -6665,12 +6636,10 @@ msgstr[0] "एकं द्रव्यं संस्थापयतु"
 msgstr[1] "%1 द्रव्यं संस्थापयन्तु"
 
 #: widgets/paste.cpp:266
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Paste Clipboard Contents..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents…"
-msgstr "अंशफलकम् सामग्रीं संस्थापयन्तु..."
+msgstr "अंशफलकम् सामग्रीं संस्थापयन्तु…"
 
 #: widgets/paste.cpp:270
 #, kde-format
@@ -6803,16 +6772,14 @@ msgid "C&ontinue"
 msgstr "&अनुवर्तते"
 
 #: widgets/renamedialog.cpp:362
-#, fuzzy, kde-format
-#| msgid "This action will overwrite the destination."
+#, kde-format
 msgid "Would you like to overwrite the destination?"
-msgstr "एतत् क्रिया गन्तव्यं अधिलेखयिष्यति ।."
+msgstr "गन्तव्यस्थानं अधिलेखयितुम् इच्छति वा ?"
 
 #: widgets/renamedialog.cpp:364
-#, fuzzy, kde-format
-#| msgid "This action will merge the contents of '%1' into '%2'."
+#, kde-format
 msgid "Would you like to merge the contents of '%1' into '%2'?"
-msgstr "एषा क्रिया '%1' इत्यस्य सामग्रीं '%2' इत्यत्र विलीनं करिष्यति ।."
+msgstr "किं भवान् '%1' इत्यस्य सामग्रीं '%2' इत्यत्र विलीनं कर्तुम् इच्छति?"
 
 #: widgets/renamedialog.cpp:372
 #, kde-format
@@ -6825,46 +6792,39 @@ msgid "Destination"
 msgstr "गन्तव्यम्"
 
 #: widgets/renamedialog.cpp:405
-#, fuzzy, kde-format
-#| msgid "The destination is <b>smaller by %1</b>"
+#, kde-format
 msgid "The source is <b>more recent</b>."
-msgstr "गन्तव्यस्थानं <b>%1 इत्यनेन लघुतरम्</b> अस्ति"
+msgstr "स्रोतः <b>अद्यतनतरः</b> अस्ति ।."
 
 #: widgets/renamedialog.cpp:407
-#, fuzzy, kde-format
-#| msgid "The destination is <b>smaller by %1</b>"
+#, kde-format
 msgid "The source is <b>older</b>."
-msgstr "गन्तव्यस्थानं <b>%1 इत्यनेन लघुतरम्</b> अस्ति"
+msgstr "स्रोतः <b>वृद्धः</b> अस्ति ।."
 
 #: widgets/renamedialog.cpp:416
-#, fuzzy, kde-format
-#| msgid "The destination is <b>smaller by %1</b>"
+#, kde-format
 msgid "The source is <b>smaller by %1</b>."
-msgstr "गन्तव्यस्थानं <b>%1 इत्यनेन लघुतरम्</b> अस्ति"
+msgstr "स्रोतः <b>लघुः %1</b>ति ।."
 
 #: widgets/renamedialog.cpp:419
-#, fuzzy, kde-format
-#| msgid "The destination is <b>bigger by %1</b>"
+#, kde-format
 msgid "The source is <b>bigger by %1</b>."
-msgstr "गन्तव्यं <b>%1 इत्यनेन बृहत्तरम्</b> अस्ति"
+msgstr "स्रोतः <b>%1 इत्यनेन बृहत्तरम्</b> अस्ति."
 
 #: widgets/renamedialog.cpp:432
-#, fuzzy, kde-format
-#| msgid "The files are identical."
+#, kde-format
 msgid "The files are <b>identical</b>."
-msgstr "सञ्चिकाः समानाः सन्ति ।."
+msgstr "सञ्चिकाः <b>समानाः</b> सन्ति ।."
 
 #: widgets/renamedialog.cpp:435
-#, fuzzy, kde-format
-#| msgid "The files seem identical."
+#, kde-format
 msgid "The files <b>seem identical</b>."
-msgstr "सञ्चिकाः समानाः दृश्यन्ते ।."
+msgstr "सञ्चिकाः <b>समानाः</b> दृश्यन्ते ।."
 
 #: widgets/renamedialog.cpp:438
-#, fuzzy, kde-format
-#| msgid "The files are different."
+#, kde-format
 msgid "The files are <b>different</b>."
-msgstr "सञ्चिकाः भिन्नाः भवन्ति।."
+msgstr "सञ्चिकाः <b>भिन्नाः</b> भवन्ति।."
 
 #: widgets/renamedialog.cpp:446
 #, kde-format
@@ -7174,157 +7134,3 @@ msgstr "एतेन कार्यक्रमः आरभ्यते :"
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr "यदि भवान् अस्मिन् कार्यक्रमे विश्वासं न करोति तर्हि रद्द (Cancel) नुदतु"
-
-#~ msgid "Is &executable"
-#~ msgstr "&निष्पादनीयः अस्ति"
-
-#~ msgid "New Folder..."
-#~ msgstr "नूतनं पुटम्..."
-
-#~ msgctxt "@action:button"
-#~ msgid "Add..."
-#~ msgstr "योजयतु..."
-
-#~ msgctxt "@action:button"
-#~ msgid "Edit..."
-#~ msgstr "सम्पादयतु..."
-
-#~ msgctxt "@title:menu"
-#~ msgid "&Open Folder With..."
-#~ msgstr "&एतेन सह पुटं उद्घाटयन्तु..."
-
-#~ msgctxt "@title:menu"
-#~ msgid "&Open With..."
-#~ msgstr "&एतेन उद्घाटयन्तु..."
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "New Folder"
-#~ msgctxt "@title:window"
-#~ msgid "New File"
-#~ msgstr "नूतनं पुटम्"
-
-#~ msgctxt "@title:window"
-#~ msgid "New Folder"
-#~ msgstr "नूतनं पुटम्"
-
-#~ msgid "Differences"
-#~ msgstr "भेदाः"
-
-#~ msgid "*|All Files"
-#~ msgstr "*|सर्वाणि सञ्चिकानि"
-
-#~ msgid "No host specified."
-#~ msgstr "न कोऽपि निमन्त्रक निर्दिष्टः ।."
-
-#~ msgid "The server does not support the WebDAV protocol."
-#~ msgstr "वितारकः WebDAV संविद् समर्थयति न ।."
-
-#~ msgid "%1 contacted. Waiting for reply..."
-#~ msgstr "%1 सम्पर्कं कृतवान् । उत्तरस्य प्रतीक्षायां..."
-
-#~ msgctxt "@info Security check on url being accessed"
-#~ msgid ""
-#~ "<p>You are about to log in to the site \"%1\" with the username \"%2\", "
-#~ "but the website does not require authentication. This may be an attempt "
-#~ "to trick you.</p><p>Is \"%1\" the site you want to visit?</p>"
-#~ msgstr ""
-#~ "<p>भवान् \"%2\" इति उपयोक्तृनाम्ना \"%1\" इति क्षेत्र मध्ये प्रवेशं कर्तुं प्रवृत्तः अस्ति, "
-#~ "परन्तु जालक्षेत्रे प्रमाणीकरणस्य आवश्यकता नास्ति । एषः भवतः वञ्चनस्य प्रयासः भवितुम् "
-#~ "अर्हति ।</p><p>किं \"%1\" इति क्षेत्र भवता गन्तुम् इच्छति?</p>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Confirm Website Access"
-#~ msgstr "जालस्थलस्य अभिगमनस्य पुष्टिं कुर्वन्तु"
-
-#~ msgid "Server processing request, please wait..."
-#~ msgstr "वितारक प्रसंस्करण अनुरोधः, कृपया प्रतीक्ष्यताम्..."
-
-#~ msgid "Sending data to %1"
-#~ msgstr "%1 - मध्ये दत्तांशं प्रेषयति"
-
-#~ msgid "Retrieving %1 from %2..."
-#~ msgstr "%2 तः %1 पुनः प्राप्तम्..."
-
-#~ msgid "Authentication Failed."
-#~ msgstr "प्रमाणीकरणं विफलम्।."
-
-#~ msgid "Authorization failed."
-#~ msgstr "प्राधिकरणं विफलम्।."
-
-#~ msgid "Unknown Authorization method."
-#~ msgstr "अज्ञात प्राधिकरण विधि।."
-
-#~ msgid "Receiving corrupt data."
-#~ msgstr "दूषितदत्तांशं प्राप्य।."
-
-#~ msgid ""
-#~ "You are about to leave secure mode. Transmissions will no longer be "
-#~ "encrypted.\n"
-#~ "This means that a third party could observe your data in transit."
-#~ msgstr ""
-#~ "भवन्तः सुरक्षितविधानात् निर्गन्तुं प्रवृत्ताः सन्ति। संचरणं पुनः गुप्तीकरणं न भविष्यति।\n"
-#~ "अस्य अर्थः अस्ति यत् तृतीयपक्षः भवतः दत्तांशं पारगमनकाले अवलोकयितुं शक्नोति स्म ।."
-
-#~ msgid "Security Information"
-#~ msgstr "सुरक्षासूचना"
-
-#~ msgid "C&ontinue Loading"
-#~ msgstr "लोडिंग् &निरन्तरं कुर्वन्तु"
-
-#~ msgctxt "%1 is a host name"
-#~ msgid "%1: SSL negotiation failed"
-#~ msgstr "%1: SSL वार्तालापः विफलः"
-
-#~ msgid ""
-#~ "You are about to enter secure mode. All transmissions will be encrypted "
-#~ "unless otherwise noted.\n"
-#~ "This means that no third party will be able to easily observe your data "
-#~ "in transit."
-#~ msgstr ""
-#~ "भवन्तः सुरक्षितविधाने प्रवेशं कर्तुं प्रवृत्ताः सन्ति। अन्यथा न उक्तं यावत् सर्वे संचरणाः "
-#~ "गुप्तीकरणं भविष्यन्ति ।\n"
-#~ "अस्य अर्थः अस्ति यत् कोऽपि तृतीयपक्षः भवतः दत्तांशं पारगमनकाले सहजतया अवलोकयितुं न "
-#~ "शक्नोति ।."
-
-#~ msgid "Display SSL &Information"
-#~ msgstr "SSL &सूचनां प्रदर्शयन्तु"
-
-#~ msgid "C&onnect"
-#~ msgstr "&संयुज्"
-
-#~ msgid "Could not find a usable proxy configuration script"
-#~ msgstr "उपयोगयोग्यं प्रतिनिधि विन्यासलिपिं न प्राप्नोत्"
-
-#~ msgid ""
-#~ "Could not download the proxy configuration script:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "प्रतिनिधि विन्यासउपक्रम अवतरणं कर्तुं न शक्तम्:\n"
-#~ "%1"
-
-#~ msgid "Could not download the proxy configuration script"
-#~ msgstr "प्रतिनिधि विन्यासउपक्रम अवतरणं कर्तुं न शक्तम्"
-
-#~ msgid ""
-#~ "The proxy configuration script is invalid:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "प्रतिनिधि विन्यासउपक्रम अमान्यम् अस्ति:\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "The proxy configuration script returned an error:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "प्रतिनिधि विन्यासउपक्रम एकं त्रुटिं प्रत्यागच्छत्:\n"
-#~ "%1"
-
-#~ msgid "Could not find 'FindProxyForURL' or 'FindProxyForURLEx'"
-#~ msgstr "'FindProxyForURL' अथवा 'FindProxyForURLEx' इति न प्राप्नोत् ।"
-
-#~ msgid "Got an invalid reply when calling %1 -> %2"
-#~ msgstr "%1 -> %2 आह्वयन् अमान्यम् उत्तरं प्राप्तवान्"
-
-#~ msgid "Add…"
-#~ msgstr "संयोजयति…"

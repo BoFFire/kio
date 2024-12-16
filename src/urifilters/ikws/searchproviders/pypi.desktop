@@ -34,6 +34,7 @@ Name[pl]=PyPI
 Name[pt_BR]=PyPI
 Name[ro]=PyPI
 Name[ru]=PyPI
+Name[sa]=PyPI
 Name[sk]=PyPI
 Name[sl]=PyPI
 Name[sq]=PyPI
@@ -77,6 +78,7 @@ Query[pl]=https://pypi.org/search/?q=\\{@}
 Query[pt_BR]=https://pypi.org/search/?q=\\{@}
 Query[ro]=https://pypi.org/search/?q=\\{@}
 Query[ru]=https://pypi.org/search/?q=\\{@}
+Query[sa]=https://pypi.org/search/?q=\\{@}
 Query[sk]=https://pypi.org/search/?q=\\{@}
 Query[sl]=https://pypi.org/search/?q=\\{@}
 Query[sq]=https://pypi.org/search/?q=\\{@}

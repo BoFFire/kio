@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-01 00:37+0000\n"
-"PO-Revision-Date: 2024-10-16 18:30+0300\n"
+"POT-Creation-Date: 2024-12-15 00:38+0000\n"
+"PO-Revision-Date: 2024-12-07 15:06+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -2888,12 +2888,12 @@ msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: filewidgets/kfilefiltercombo.cpp:160
+#: filewidgets/kfilefiltercombo.cpp:162
 #, kde-format
 msgid "All Supported Files"
 msgstr "Kaikki tuetut tiedostot"
 
-#: filewidgets/kfilefiltercombo.cpp:170 filewidgets/kfilefiltercombo.cpp:172
+#: filewidgets/kfilefiltercombo.cpp:172 filewidgets/kfilefiltercombo.cpp:174
 #: filewidgets/kfilewidget.cpp:1902
 #, kde-format
 msgid "All Files"
@@ -3827,12 +3827,10 @@ msgid "Show Full Path"
 msgstr "Näytä koko polku"
 
 #: filewidgets/kurlnavigator.cpp:796
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Cannot transfer <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:tooltip for button. 1 is path"
 msgid "Go to any location on the path <filename>%1</filename>"
-msgstr "Tiedostoa <filename>%1</filename> ei voi siirtää"
+msgstr "Siirry mihin tahansa polulla <filename>%1</filename>"
 
 #: filewidgets/kurlnavigatorbutton.cpp:701
 #, kde-format
@@ -3844,7 +3842,7 @@ msgstr "Lisää"
 #, kde-format
 msgctxt "@action:button opening a list of locations"
 msgid "Go to Location on Path"
-msgstr ""
+msgstr "Siirry polun sijaintiin"
 
 #: filewidgets/kurlnavigatorschemecombo.cpp:155
 #, kde-format
@@ -3884,13 +3882,13 @@ msgstr "Muokkaa sijaintia napsauttamalla"
 msgid "You are not authorized to execute this file."
 msgstr "Tämän tiedoston suoritukseen ei ole oikeuksia."
 
-#: gui/applicationlauncherjob.cpp:133 gui/commandlauncherjob.cpp:117
+#: gui/applicationlauncherjob.cpp:144 gui/commandlauncherjob.cpp:117
 #, kde-format
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "Käynnistetään: %1"
 
-#: gui/applicationlauncherjob.cpp:170
+#: gui/applicationlauncherjob.cpp:181
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
@@ -3899,13 +3897,13 @@ msgstr ""
 "Palvelusta %1 ei voitu tehdä suoritettavaa: keskeytetään suoritus.\n"
 "%2"
 
-#: gui/applicationlauncherjob.cpp:288 gui/openurljob.cpp:644
+#: gui/applicationlauncherjob.cpp:299 gui/openurljob.cpp:644
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr ""
 "Sinulla ei ole oikeutta muuttaa sovellusta, jossa tämä tiedosto avataan."
 
-#: gui/applicationlauncherjob.cpp:296
+#: gui/applicationlauncherjob.cpp:307
 #, kde-format
 msgid ""
 "Internal error: could not prompt the user for which application to start"
